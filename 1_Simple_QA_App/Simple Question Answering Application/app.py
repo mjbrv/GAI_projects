@@ -8,10 +8,10 @@ from langchain_huggingface import HuggingFaceEndpoint
 
 #When deployed on huggingface spaces, this values has to be passed using Variables & Secrets setting, as shown in the video :)
 #import os
-#os.environ["OPENAI_API_KEY"] = "sk-PLfFwPq6y24234234234FJ1Uc234234L8hVowXdt"
+#os.environ["OPENAI_API_KEY"] = ""
 
 import os
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = ""
 
 #Function to return the response
 def load_answer(question):
